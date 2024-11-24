@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Store</title>
+    <link rel="stylesheet" href="MS.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <header class="header">
+     <a href="#" class="logo"><span>Medical</span>Store</a>
+     <nav class="navbar">
+        <a href="#home">HOME</a>
+        <a href="#products">Products</a>
+        <a href="#health-tips">Health Tips</a>        
+     </nav>
+     
+    <div class="cart">
+        <button onclick="toggleCart()">Cart (<span id="cart-count">0</span>)</button>
+    </div>
+    <div class="auth">
+        <button onclick="toggleLoginForm()">Login</button>
+        <button onclick="toggleRegisterForm()">Register</button>
+    </div>
+     <a href="#Contact Us" class="contact">Contact Us</a>
+    </header> 
+   
+    <section class="home">
+     <div class="home-content">
+        <h3>Welcome </h3>
+
+        <h2>To My<span>Medical<br></span>Store</h2>
+        <p>Welcome to our Medical Store, your trusted partner in health and wellness. We are dedicated to providing a wide range of high-quality medicines and health essentials to meet your needs. Our store offers everything from over-the-counter medications like Aspirin and Ibuprofen to essential health products such as Vitamin C and first aid kits. With a commitment to customer satisfaction, our knowledgeable staff is here to assist you in finding the right products for your health concerns. We also prioritize convenience, offering an easy-to-use online shopping experience where you can browse our extensive inventory and have your items delivered right to your doorstep. At our Medical Store, your health is our priority, and we strive to ensure that you have access to the best products for a healthier life.</p>
+     </div>
+     <div class="img-box">
+        <img src="images/22.jpeg" alt="">
+     </div>
+    </section>
+    <section id="products">
+        <h2>Available Medicines</h2>
+        <div class="product-container">
+            <div class="product-box" id="product1">
+                <h3>Aspirin</h3>
+                <img src="images/1.jpeg" alt="">
+                <p>Price: ₹75.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-box" id="product2">
+                <h3>Ibuprofen</h3>
+                <img src="images/2.jpeg" alt="">
+                <p>Price: ₹95.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-box" id="product3">
+                <h3>Paracetamol</h3>
+                <img src="images/3.jpeg" alt="">
+                <p>Price: ₹45.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-box" id="product4">
+                <h3>Antihistamine</h3>
+                <img src="images/4.jpeg" alt="">
+                <p>Price: ₹50.00</p>
+                <button >Add to Cart</button>
+            </div>
+            <div class="product-box" id="product5">
+                <h3>Cough Syrup</h3>
+                <img src="images/10.jpeg" alt="">
+                <p>Price: ₹120.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-box" id="product6">
+                <h3>Vitamin C</h3>
+                <img src="images/11.jpeg" alt="">
+                <p>Price: ₹30.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-box" id="product7">
+                <h3>Band-Aids</h3>
+                <img src="images/5.jpeg" alt="">
+                <p>Price: ₹20.00</p>
+                <button >Add to Cart</button>
+            </div>
+            <div class="product-box" id="product8">
+                <h3>Thermometer</h3>
+                <img src="images/12.jpeg" alt="">
+                <p>Price: ₹150.00</p>
+                <button >Add to Cart</button>
+            </div>
+            <div class="product-box" id="product9">
+                <h3>First Aid Kit</h3>
+                <img src="images/6.jpeg" alt="">
+                <p>Price: ₹500.00</p>
+                <button >Add to Cart</button>
+            </div>
+            <div class="product-box" id="product10">
+                <h3>Nasal Drops</h3>
+                <img src="images/13.jpeg" alt="">
+                <p>Price: ₹60.00</p>
+                <button >Add to Cart</button>
+            </div>
+            <div class="product-box" id="product11">
+                <h3>Amoxycillin 500mg</h3>
+                <img src="images/13.jpeg" alt="">
+                <p>Price: ₹90.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-box" id="product12">
+                <h3>Saridon</h3>
+                <img src="images/14.jpeg" alt="">
+                <p>Price: ₹40.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-box" id="product13">
+                <h3>Citirizen</h3>
+                <img src="images/8.jpeg" alt="">
+                <p>Price: ₹15.00</p>
+                <button >Add to Cart</button>
+            </div>
+            <div class="product-box" id="product14">
+                <h3>Mega-CV 625</h3>
+                <img src="images/15.jpeg" alt="">
+                <p>Price: ₹140.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-box" id="product15">
+                <h3>DOLO-650mg</h3>
+                <img src="images/9.jpeg" alt="">
+                <p>Price: ₹30.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-box" id="product15">
+                <h3>Horlicks</h3>
+                <img src="images/23.jpeg" alt="">
+                <p>Price: ₹185.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-box" id="product15">
+                <h3>Bornvita</h3>
+                <img src="images/24.jpeg" alt="">
+                <p>Price: ₹200.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-box" id="product15">
+                <h3>ACCU-Check instant</h3>
+                <img src="images/25.jpeg" alt="">
+                <p>Price: ₹1100.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-box" id="product15">
+                <h3>Doctor Ortho-Oil</h3>
+                <img src="images/26.jpeg" alt="">
+                <p>Price: ₹290.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-box" id="product15">
+                <h3>Zandu Balm</h3>
+                <img src="images/27.jpeg" alt="">
+                <p>Price: ₹180.00</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </section>
+    
+
+<section id="health-tips" class="health-tips-section">
+    <h2>Health Tips</h2>
+    
+    <div id="tips-container">
+        <div class="tip">Stay hydrated by drinking plenty of water throughout the day.</div>
+        <div class="tip">Incorporate a variety of fruits and vegetables into your diet.</div>
+        <div class="tip">Get at least 30 minutes of physical activity most days of the week.</div>
+        <div class="tip">Prioritize sleep by aiming for 7-9 hours each night.</div>
+        <div class="tip">Practice mindfulness or meditation to reduce stress.</div>
+    </div>
+</section>
+
+<section id="contact-us" class="contact-form">
+    <h2>Contact <span>Us</span></h2>
+
+    <form action="#" method="post">
+        <div class="input-box">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Full Name" required>
+        </div>
+
+        <div class="input-box">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="Email Address" required>
+        </div>
+
+        <div class="input-box">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+        </div>
+
+        <div class="input-box">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+        </div>
+
+        <div class="input-box">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" cols="30" rows="10" placeholder="Message" required></textarea>
+        </div>
+
+        <input type="submit" value="Send Message" class="btn-1">
+    </form>
+</section>
+
+<footer class="footer">
+     
+       <div class="social">
+       <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+       <a href="#"><i class='bx bxl-instagram' ></i></a>
+       <a href="#"><i class='bx bxl-twitter' ></i></a>
+       <a href="#"><i class='bx bxl-linkedin' ></i></a>
+       </div>
+
+       <ul class="list">
+        <li>
+            <a href="#">FAQ</a>
+        </li>
+        <li>
+            <a href="#">Services</a>
+        </li>
+        <li>
+            <a href="#">About Us</a>
+        </li>
+        <li>
+            <a href="#">Contact</a>
+        </li>
+        <li>
+            <a href="#">Privacy Policy</a>
+        </li>
+       </ul>
+       <p class="Copyright">&copy;2024 | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
